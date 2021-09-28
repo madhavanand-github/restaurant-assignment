@@ -53,6 +53,7 @@ section {
  padding-bottom: 0;
  text-align: center;
  font-family: Helvetica;
+ overflow: auto;
 
  }
 
@@ -76,33 +77,39 @@ section {
 
 #one {
 position: absolute;
-text-align: center;
 top:0;
 left: 1;
-right: 1;
+right: 0;
+margin: 0 auto;
+width: auto;
 font-size: 20px; 
+text-align: center;
 background-color: yellow; 
 
 }
 
 #two{
 position: absolute;
-text-align: center;
 top:0;
 left: 1;
-right: 1;
-font-size: 20px; 
+right: 0;
+margin: 0 auto;
+width: auto;
+font-size: 20px;
+text-align: center;
 background-color: yellow;
 
 }
 
 #three{
 position: absolute;
-text-align: center;
 top:0;
 left: 1;
-right: 1;
-font-size: 20px; 
+right: 0;
+margin: 0 auto;
+width: auto;
+font-size: 20px;
+text-align: center;
 background-color: yellow;
 
  }
