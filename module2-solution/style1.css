@@ -34,16 +34,13 @@ font-family: Verdana, Helvetica, serif, Arial, fantasy, sans-serif;
   text-align: justify;
   font-size: 25px;
   overflow: auto;
-  border: solid 3px black;
+  border: solid 1px black;
   width: 95%;
   height: 150px;
 
 }
 
-
-
-
-#Title{
+span{
   position: absolute;	
   top:0;
   right:0;
@@ -51,11 +48,24 @@ font-family: Verdana, Helvetica, serif, Arial, fantasy, sans-serif;
   font-size: 35px;
   text-align: center;
   font-weight: bold;
-  background-color:#dda0dd	;
   opacity: .7;
 
 }
 
+#title1 {
+background-color:#b78ad4
+
+}
+
+#title2 {
+background-color:#9652c7
+
+}
+
+#title3{
+
+background-color:#340654
+}
 
 .row {
   width: 100%;
